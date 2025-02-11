@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repos\\SambaPOS3SE\\",
+  "WorkspaceRootPath": "D:\\SambaPOS3SE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|d:\\repos\\sambapos3se\\samba.presentation\\shell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|d:\\sambapos3se\\samba.presentation\\shell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\shell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|d:\\repos\\sambapos3se\\samba.modules.navigationmodule\\navigationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|D:\\SambaPOS3SE\\samba.modules.navigationmodule\\navigationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\navigationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|d:\\repos\\sambapos3se\\samba.modules.menumodule\\screenmenucategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|D:\\SambaPOS3SE\\samba.modules.menumodule\\screenmenucategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|solutionrelative:samba.modules.menumodule\\screenmenucategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|d:\\repos\\sambapos3se\\samba.modules.menumodule\\screenmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|D:\\SambaPOS3SE\\samba.modules.menumodule\\screenmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|solutionrelative:samba.modules.menumodule\\screenmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|d:\\repos\\sambapos3se\\samba.modules.navigationmodule\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|D:\\SambaPOS3SE\\samba.modules.navigationmodule\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7FB0F2D-DBD6-4C97-AC45-CE4DC5F2FBD6}|Samba.Modules.ManagementModule\\Samba.Modules.ManagementModule.csproj|d:\\repos\\sambapos3se\\samba.modules.managementmodule\\managementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7FB0F2D-DBD6-4C97-AC45-CE4DC5F2FBD6}|Samba.Modules.ManagementModule\\Samba.Modules.ManagementModule.csproj|D:\\SambaPOS3SE\\samba.modules.managementmodule\\managementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7FB0F2D-DBD6-4C97-AC45-CE4DC5F2FBD6}|Samba.Modules.ManagementModule\\Samba.Modules.ManagementModule.csproj|solutionrelative:samba.modules.managementmodule\\managementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7FB0F2D-DBD6-4C97-AC45-CE4DC5F2FBD6}|Samba.Modules.ManagementModule\\Samba.Modules.ManagementModule.csproj|d:\\repos\\sambapos3se\\samba.modules.managementmodule\\managementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F7FB0F2D-DBD6-4C97-AC45-CE4DC5F2FBD6}|Samba.Modules.ManagementModule\\Samba.Modules.ManagementModule.csproj|D:\\SambaPOS3SE\\samba.modules.managementmodule\\managementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F7FB0F2D-DBD6-4C97-AC45-CE4DC5F2FBD6}|Samba.Modules.ManagementModule\\Samba.Modules.ManagementModule.csproj|solutionrelative:samba.modules.managementmodule\\managementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|d:\\repos\\sambapos3se\\samba.presentation\\shell.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|D:\\SambaPOS3SE\\samba.presentation\\shell.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\shell.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|d:\\repos\\sambapos3se\\samba.presentation\\common.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|D:\\SambaPOS3SE\\samba.presentation\\common.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\common.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|d:\\repos\\sambapos3se\\samba.presentation\\shell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|D:\\SambaPOS3SE\\samba.presentation\\shell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\shell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|d:\\repos\\sambapos3se\\samba.presentation\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|D:\\SambaPOS3SE\\samba.presentation\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -76,62 +76,58 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ScreenMenuViewModel.cs",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuViewModel.cs",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuViewModel.cs",
               "RelativeDocumentMoniker": "Samba.Modules.MenuModule\\ScreenMenuViewModel.cs",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuViewModel.cs",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuViewModel.cs",
               "RelativeToolTip": "Samba.Modules.MenuModule\\ScreenMenuViewModel.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAIwD8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T06:37:01.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:37:01.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ScreenMenuCategoryViewModel.cs",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuCategoryViewModel.cs",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuCategoryViewModel.cs",
               "RelativeDocumentMoniker": "Samba.Modules.MenuModule\\ScreenMenuCategoryViewModel.cs",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuCategoryViewModel.cs",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Modules.MenuModule\\ScreenMenuCategoryViewModel.cs",
               "RelativeToolTip": "Samba.Modules.MenuModule\\ScreenMenuCategoryViewModel.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAcwBMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T06:35:45.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:35:45.276Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "NavigationViewModel.cs",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationViewModel.cs",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationViewModel.cs",
               "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\NavigationViewModel.cs",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationViewModel.cs",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationViewModel.cs",
               "RelativeToolTip": "Samba.Modules.NavigationModule\\NavigationViewModel.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAUwBcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T06:35:05.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:35:05.239Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NavigationView.xaml",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml",
               "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\NavigationView.xaml",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml",
               "RelativeToolTip": "Samba.Modules.NavigationModule\\NavigationView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-07T06:26:13.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:26:13.653Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Shell.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml.cs",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml.cs",
               "RelativeDocumentMoniker": "Samba.Presentation\\Shell.xaml.cs",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml.cs",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml.cs",
               "RelativeToolTip": "Samba.Presentation\\Shell.xaml.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAGoAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAGYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T06:29:25.485Z",
               "EditorCaption": ""
@@ -140,76 +136,70 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ManagementViewModel.cs",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementViewModel.cs",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementViewModel.cs",
               "RelativeDocumentMoniker": "Samba.Modules.ManagementModule\\ManagementViewModel.cs",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementViewModel.cs",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementViewModel.cs",
               "RelativeToolTip": "Samba.Modules.ManagementModule\\ManagementViewModel.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAcwB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T06:34:30.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:34:30.952Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ManagementView.xaml",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementView.xaml",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementView.xaml",
               "RelativeDocumentMoniker": "Samba.Modules.ManagementModule\\ManagementView.xaml",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementView.xaml",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Modules.ManagementModule\\ManagementView.xaml",
               "RelativeToolTip": "Samba.Modules.ManagementModule\\ManagementView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-07T06:34:23.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:34:23.007Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Common.xaml",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Common.xaml",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Presentation\\Common.xaml",
               "RelativeDocumentMoniker": "Samba.Presentation\\Common.xaml",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Common.xaml",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Presentation\\Common.xaml",
               "RelativeToolTip": "Samba.Presentation\\Common.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-07T06:21:00.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:21:00.509Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Bootstrapper.cs",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Bootstrapper.cs",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Presentation\\Bootstrapper.cs",
               "RelativeDocumentMoniker": "Samba.Presentation\\Bootstrapper.cs",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Bootstrapper.cs",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Presentation\\Bootstrapper.cs",
               "RelativeToolTip": "Samba.Presentation\\Bootstrapper.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAmwDcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T06:17:59.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:17:59.313Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Shell.xaml",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
               "RelativeDocumentMoniker": "Samba.Presentation\\Shell.xaml",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
               "RelativeToolTip": "Samba.Presentation\\Shell.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-07T06:04:05.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:04:05.445Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Shell.xaml",
-              "DocumentMoniker": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
+              "DocumentMoniker": "D:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
               "RelativeDocumentMoniker": "Samba.Presentation\\Shell.xaml",
-              "ToolTip": "D:\\Repos\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
+              "ToolTip": "D:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
               "RelativeToolTip": "Samba.Presentation\\Shell.xaml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-07T06:19:17.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T06:19:17.486Z"
             }
           ]
         }
