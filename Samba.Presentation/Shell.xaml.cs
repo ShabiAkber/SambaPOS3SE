@@ -35,25 +35,23 @@ namespace Samba.Presentation
         [ImportingConstructor]
         public Shell(IApplicationState applicationState, IMethodQueue methodQueue)
         {
-
             _applicationState = applicationState;
             _methodQueue = methodQueue;
             InitializeComponent();
             LanguageProperty.OverrideMetadata(
-                                  typeof(FrameworkElement),
-                                  new FrameworkPropertyMetadata(
-                                      XmlLanguage.GetLanguage(CultureInfo.CurrentCulture.IetfLanguageTag)));
+                typeof(FrameworkElement),
+                new FrameworkPropertyMetadata(
+                    XmlLanguage.GetLanguage(CultureInfo.CurrentCulture.IetfLanguageTag)));
 
             Application.Current.MainWindow.SizeChanged += MainWindow_SizeChanged;
 
             var selectedIndexChange = DependencyPropertyDescriptor.FromProperty(Selector.SelectedIndexProperty, typeof(TabControl));
-
             selectedIndexChange.AddValueChanged(MainTabControl, MainTabControlSelectedIndexChanged);
 
             EventServiceFactory.EventService.GetEvent<GenericEvent<User>>().Subscribe(x =>
             {
                 if (x.Topic == EventTopicNames.UserLoggedIn) UserLoggedIn(x.Value);
-                if (x.Topic == EventTopicNames.UserLoggedOut) { UserLoggedOut(x.Value); }
+                if (x.Topic == EventTopicNames.UserLoggedOut) UserLoggedOut(x.Value);
             });
 
             EventServiceFactory.EventService.GetEvent<GenericEvent<UserControl>>().Subscribe(
@@ -64,7 +62,6 @@ namespace Samba.Presentation
                         SerialPortService.ResetCache();
                         EventServiceFactory.EventService.PublishEvent(EventTopicNames.ResetCache, true);
                     }
-
                 });
 
             EventServiceFactory.EventService.GetEvent<GenericEvent<EventAggregator>>().Subscribe(
@@ -76,22 +73,19 @@ namespace Samba.Presentation
                     }
                 });
 
-
-
             UserRegion.Visibility = Visibility.Collapsed;
             RightUserRegion.Visibility = Visibility.Collapsed;
             Height = Properties.Settings.Default.ShellHeight;
             Width = Properties.Settings.Default.ShellWidth;
 
-
-
             _timer = new DispatcherTimer();
             _timer.Tick += TimerTick;
-            TimeLabel.Text = "...";
+            _timer.Interval = TimeSpan.FromSeconds(1);
+            _timer.Start();
 
 #if !DEBUG
-            WindowStyle = WindowStyle.None;
-            WindowState = WindowState.Maximized;
+                WindowStyle = WindowStyle.None;
+                WindowState = WindowState.Maximized;
 #endif
         }
 
@@ -100,12 +94,11 @@ namespace Samba.Presentation
             _applicationState.IsLandscape = e.NewSize.Height < e.NewSize.Width;
         }
 
-        void TimerTick(object sender, EventArgs e)
+        private void TimerTick(object sender, EventArgs e)
         {
-            //var time = DateTime.Now.ToLongDateString() + " " + DateTime.Now.ToShortTimeString();     //Commented by Tim GU       
-            /*var time = "le " + DateTime.Now.ToString("dddd dd MMMM yyyy", CultureInfo.CreateSpecificCulture("fr-CA")) + "   " + DateTime.Now.ToShortTimeString();*/  //Added by Tim GU
-            var time =  DateTime.Now.ToString("dddd dd MMMM yyyy", CultureInfo.CreateSpecificCulture("en")) + "   " + DateTime.Now.ToShortTimeString();
-            TimeLabel.Text = TimeLabel.Text.Contains(":") ? time.Replace(":", " ") : time;
+            var time = DateTime.Now.ToString("dddd, MMMM dd, yyyy - HH:mm:ss", CultureInfo.InvariantCulture);
+            // Set the application name and version statically as requested
+            this.Title = $"Simple Menu PC V12.0.1.0 - Allagma Technologies {DateTime.Now.ToString("dddd, MMMM dd, yyyy - hh:mm:ss tt")}";
             _methodQueue.RunQueue();
         }
 
@@ -140,7 +133,6 @@ namespace Samba.Presentation
                 Properties.Settings.Default.ShellWidth = Width;
             }
 
-
             Properties.Settings.Default.Save();
 
             LocalSettings.WindowScale = (MainGrid.LayoutTransform as ScaleTransform).ScaleX;
@@ -149,9 +141,6 @@ namespace Samba.Presentation
 
         private void WindowLoaded(object sender, RoutedEventArgs e)
         {
-            //Title = Title + " [App: " + LocalSettings.AppVersion + "] [" + LocalSettings.AppVersionDateTime + "]";   //Commented by Tim GU
-            //if (LocalSettings.CurrentDbVersion > 0)    //Commented by Tim GU
-            //    Title += " [DB: " + LocalSettings.DbVersion + "-" + LocalSettings.CurrentDbVersion + "]";   //Commented by Tim GU
             _timer.Interval = TimeSpan.FromSeconds(1);
             _timer.Start();
 
@@ -217,6 +206,11 @@ namespace Samba.Presentation
             if (sc == null || sc.ScaleX + val < 0.05) return;
             sc.ScaleX += val;
             sc.ScaleY += val;
+        }
+
+        private void MainTabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Method implementation
         }
     }
 }

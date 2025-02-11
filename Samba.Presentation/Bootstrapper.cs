@@ -130,10 +130,10 @@ namespace Samba.Presentation
 
             InteractionService.UserIntraction.ToggleSplashScreen();
             EntityCollectionSortManager.Load(LocalSettings.DocumentPath + "\\CollectionSort.txt");
-
+            
             if (!string.IsNullOrEmpty(LocalSettings.CallerIdDeviceName))
             {
-                ServiceLocator.Current.GetInstance<IDeviceService>().InitializeDevice(LocalSettings.CallerIdDeviceName);
+                ServiceLocator.Current.GetInstance<IDeviceService>().InitializeDevice(LocalSettings.CallerIdDeviceName);                
             }
 
             Application.Current.MainWindow.Show();

@@ -10,10 +10,10 @@
     <properties:Settings x:Key="Settings" />
 
     
-    <!--<Style x:Key="LeftAlignedGridCell" TargetType="{x:Type DataGridCell}">
+    <Style x:Key="LeftAlignedGridCell" TargetType="{x:Type DataGridCell}">
         <Style.Triggers>
             <Trigger Property="IsSelected" Value="True">
-                --><!--<Setter Property="Background" Value="{StaticResource {x:Static SystemColors.InactiveBorderBrushKey}}" />--><!--
+                <Setter Property="Background" Value="{StaticResource {x:Static SystemColors.InactiveBorderBrushKey}}" />
                 <Setter Property="Foreground" Value="{StaticResource {x:Static SystemColors.WindowTextBrushKey}}"/>
             </Trigger>
             <Trigger Property="DataGridRow.IsFocused" Value="True">
@@ -24,7 +24,7 @@
         <Style.Setters>
             <Setter Property="BorderThickness" Value="0"/>
         </Style.Setters>
-    </Style>-->
+    </Style>
 
     <Style x:Key="RightAlignedGridCell" TargetType="{x:Type DataGridCell}" BasedOn="{StaticResource LeftAlignedGridCell}">
         <Style.Setters>

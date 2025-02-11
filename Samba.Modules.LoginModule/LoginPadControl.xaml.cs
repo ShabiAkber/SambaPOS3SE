@@ -122,5 +122,10 @@ namespace Samba.Modules.LoginModule
         {
             PinTextBox.BackgroundFocus();
         }
+
+        private void PinTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
