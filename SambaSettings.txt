@@ -1,0 +1,7 @@
+<?xml version="1.0"?><SettingsObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessagingServerPort></MessagingServerPort><MessagingServerName></MessagingServerName><TerminalName>Server</TerminalName><ConnectionString>data source=MACPK-WKS-0258\MSSQLSERVER02; Initial catalog=SambaPOS3;Integrated Security=SSPI;Persist Security Info=False;</ConnectionString><StartMessagingClient>false</StartMessagingClient><DefaultHtmlReportHeader>
+&lt;style type='text/css'&gt; 
+html
+{
+  font-family: 'Courier New', monospace;
+} 
+&lt;/style&gt;</DefaultHtmlReportHeader><CurrentLanguage>fr</CurrentLanguage><OverrideLanguage>true</OverrideLanguage><OverrideWindowsRegionalSettings>false</OverrideWindowsRegionalSettings><DefaultRecordLimit>100</DefaultRecordLimit><WindowScale>1</WindowScale><AllowMultipleClients>false</AllowMultipleClients><TokenLifeTime /><PrintFontFamily>Courier New</PrintFontFamily></SettingsObject>
