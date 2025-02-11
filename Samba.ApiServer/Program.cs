@@ -23,7 +23,7 @@ namespace Samba.ApiServer
             }
             if (LocalSettings.ApiPort == null)
             {
-                LocalSettings.ApiPort = "70";
+                LocalSettings.ApiPort = "8080";
             }
             if (LocalSettings.TokenLifeTime.Ticks == 0)
             {

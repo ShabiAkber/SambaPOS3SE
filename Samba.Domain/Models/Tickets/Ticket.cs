@@ -47,9 +47,9 @@ namespace Samba.Domain.Models.Tickets
             get
             {
                 return _emptyTicket ?? (_emptyTicket = new Ticket
-                {
-                    TransactionDocument = new AccountTransactionDocument()
-                });
+                                                           {
+                                                               TransactionDocument = new AccountTransactionDocument()
+                                                           });
             }
         }
 
@@ -111,7 +111,7 @@ namespace Samba.Domain.Models.Tickets
 
         public bool ShouldNotPrint { get; set; } = false;     //Added by Tim GU
 
-        public bool IsRFER { get; set; } = false;     //Added by Tim GU
+        public bool IsRFER {  get; set; } = false;     //Added by Tim GU
 
         public decimal RemainingAmount { get; set; }
         public decimal TotalAmount { get; set; }
@@ -284,9 +284,9 @@ namespace Samba.Domain.Models.Tickets
             decimal versActu = 0;
             decimal versAnt = 0;
             decimal sold = 0;
-            if (RemainingAmount == amount)
+            if(RemainingAmount == amount)
             {
-                if (Payments.Count == 0)    //No split payment
+                if(Payments.Count == 0)    //No split payment
                 {
                     versActu = 0;
                     versAnt = 0;
@@ -295,7 +295,7 @@ namespace Samba.Domain.Models.Tickets
                 else    //The last instalment of a split payment
                 {
                     versActu = amount;
-                    if (Payments.Count > 0)
+                    if(Payments.Count > 0)
                     {
                         for (int i = 0; i < Payments.Count; i++)
                         {
@@ -307,7 +307,7 @@ namespace Samba.Domain.Models.Tickets
             }
             else
             {
-                if (Payments.Count == 0)   //The first instalment of a split payment
+                if(Payments.Count == 0)   //The first instalment of a split payment
                 {
                     versActu = amount;
                     versAnt = 0;
@@ -361,9 +361,9 @@ namespace Samba.Domain.Models.Tickets
 
         public void RemoveAllPayments()
         {
-            if (Payments.Count > 0)
+            if(Payments.Count > 0)
             {
-                for (int i = Payments.Count - 1; i >= 0; i--)
+                for(int i = Payments.Count - 1; i>=0; i--)
                     RemovePayment(Payments[i]);
             }
         }
@@ -396,13 +396,13 @@ namespace Samba.Domain.Models.Tickets
 
         public void RemoveAllCalculations()     //Added by Tim GU
         {
-            if (Calculations.Count > 0)
+            if(Calculations.Count > 0)
             {
                 for (int i = Calculations.Count - 1; i >= 0; i--)
                 {
                     RemoveCalculation(Calculations[i]);
                 }
-            }
+            }            
         }
 
         public int GetCustomerCount()   //Added by Tim GU
@@ -477,8 +477,8 @@ namespace Samba.Domain.Models.Tickets
 
         public decimal CalculateTax(decimal plainSum, decimal preTaxServices)
         {
-            var result = decimal.Round(Orders.Where(x => x.CalculatePrice).Sum(x => x.GetTotalTaxAmount(TaxIncluded, plainSum, preTaxServices, 8)), 2, MidpointRounding.AwayFromZero) + decimal.Round(Orders.Where(x => x.CalculatePrice).Sum(x => x.GetTotalTaxAmount(TaxIncluded, plainSum, preTaxServices, 9)), 2, MidpointRounding.AwayFromZero);
-            return decimal.Round(result, LocalSettings.Decimals);
+            var result = decimal.Round(Orders.Where(x => x.CalculatePrice).Sum(x => x.GetTotalTaxAmount(TaxIncluded, plainSum, preTaxServices,8)), 2,MidpointRounding.AwayFromZero) + decimal.Round(Orders.Where(x => x.CalculatePrice).Sum(x => x.GetTotalTaxAmount(TaxIncluded, plainSum, preTaxServices, 9)), 2, MidpointRounding.AwayFromZero);
+            return decimal.Round(result, LocalSettings.Decimals);              
         }
 
         public decimal CalculateTPS(decimal plainSum, decimal preTaxServices)
@@ -500,7 +500,7 @@ namespace Samba.Domain.Models.Tickets
         }
 
         private decimal CalculateServices(IEnumerable<Calculation> calculations, decimal sum)
-        {
+        {           
             decimal totalAmount = 0;
             var currentSum = sum;
 
@@ -510,11 +510,11 @@ namespace Samba.Domain.Models.Tickets
 
                 calculation.Update(sumValue, currentSum, LocalSettings.Decimals);
 
-                if (calculation.Name == "Pourboire %")   //Added by Tim GU
+                if(calculation.Name == "Pourboire %")   //Added by Tim GU
                 {
                     calculation.Name = $"Pourboire %{calculation.CalculationAmount}";
                     decimal discountPercent = 0;
-                    for (int i = 0; i < Calculations.Count; i++)
+                    for(int i =0; i < Calculations.Count; i++)
                     {
                         if (Calculations[i].Name.ToLower().Contains("rabais"))
                         {
@@ -522,7 +522,7 @@ namespace Samba.Domain.Models.Tickets
                             break;
                         }
                     }
-                    calculation.CalculationAmount = (sumValue * (100 - discountPercent) / 100) * (calculation.CalculationAmount / 100);
+                    calculation.CalculationAmount = (sumValue * (100 - discountPercent)/100) * (calculation.CalculationAmount / 100);
                     calculation.Amount = calculation.CalculationAmount;
                 }
 
@@ -548,17 +548,17 @@ namespace Samba.Domain.Models.Tickets
             if (calculation == null)
             {
                 calculation = new Calculation
-                {
-                    Amount = amount,
-                    Name = calculationType.Name,
-                    CalculationType = calculationType.CalculationMethod,
-                    CalculationTypeId = calculationType.Id,
-                    IncludeTax = calculationType.IncludeTax,
-                    DecreaseAmount = calculationType.DecreaseAmount,
-                    UsePlainSum = calculationType.UsePlainSum,
-                    Order = calculationType.SortOrder,
-                    AccountTransactionTypeId = calculationType.AccountTransactionType.Id
-                };
+                        {
+                            Amount = amount,
+                            Name = calculationType.Name,
+                            CalculationType = calculationType.CalculationMethod,
+                            CalculationTypeId = calculationType.Id,
+                            IncludeTax = calculationType.IncludeTax,
+                            DecreaseAmount = calculationType.DecreaseAmount,
+                            UsePlainSum = calculationType.UsePlainSum,
+                            Order = calculationType.SortOrder,
+                            AccountTransactionTypeId = calculationType.AccountTransactionType.Id
+                        };
                 Calculations.Add(calculation);
                 TransactionDocument.AddSingletonTransaction(calculation.AccountTransactionTypeId, calculationType.AccountTransactionType, GetTicketAccounts());
             }
@@ -813,7 +813,7 @@ namespace Samba.Domain.Models.Tickets
         public IList<int> GetTaxIds()
         {
             return Orders.SelectMany(x => x.TaxValues)
-                               .Where(x => x.TaxTempleteAccountTransactionTypeId > 0)
+                               .Where(x => x.TaxTempleteAccountTransactionTypeId > 0 )
                                .Select(x => x.TaxTempleteAccountTransactionTypeId)
                                .Distinct().ToList();
         }
@@ -844,7 +844,7 @@ namespace Samba.Domain.Models.Tickets
                 }
 
                 bool bIsCancelled = false;    //Added by Tim GU.   To reflect the situation when ticket is cancelled by 'Annuler Billet', all calcuations other than 'Annulation' should be removed.
-                for (int i = 0; i < Calculations.Count; i++)
+                for (int i = 0; i< Calculations.Count; i++)
                 {
                     bIsCancelled |= Calculations[i].Name.Contains("Annulation");
                 }
@@ -858,11 +858,11 @@ namespace Samba.Domain.Models.Tickets
                 }        //Above are added by Tim GU
 
                 bool bCalculatePrice = false;
-                for (int i = 0; i < Orders.Count; i++)
+                for(int i= 0; i<Orders.Count; i++)
                 {
                     bCalculatePrice |= Orders[i].CalculatePrice;
                 }
-                if (!bCalculatePrice)
+                if(!bCalculatePrice)
                     Calculations.Clear();   //Above are added by Tim GU. To reflect the situation when all orders are gone from price calculation, all exsiting calculations such as Tips and Discount MUST be cleared
 
                 var taxIds = GetTaxIds();

@@ -44,7 +44,14 @@ namespace Samba.Infrastructure.Settings
             _customSettings = new SerializableDictionary<string, string>();
             MessagingServerPort = 9000;
             ConnectionString = "";
-            DefaultHtmlReportHeader = @"<style type='text/css'> html{  font-family: 'Courier New', monospace;} </style>";
+            DefaultHtmlReportHeader =
+                @"
+<style type='text/css'> 
+html
+{
+  font-family: 'Courier New', monospace;
+} 
+</style>";
 
         }
         public void SetCustomValue(string settingName, string settingValue)
