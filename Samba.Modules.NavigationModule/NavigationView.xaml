@@ -7,19 +7,107 @@
              xmlns:local="clr-namespace:Samba.Modules.NavigationModule"
              d:DesignHeight="600" d:DesignWidth="600"
              d:DataContext="{d:DesignInstance local:NavigationViewModel, IsDesignTimeCreatable=True}">
-    <Grid>
+    <Grid Background="#838383">
 
-        <Border Opacity="0.5">
+
+        <StackPanel Margin="0,80,0,0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <!-- Define the style for all buttons within this UserControl -->
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Width" Value="100"/>
+                    <Setter Property="Height" Value="100"/>
+                    <Setter Property="Background" Value="#f0f0f0"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="Padding" Value="5"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="VerticalContentAlignment" Value="Bottom"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="FontSize" Value="12"/>
+                </Style>
+            </StackPanel.Resources>
+
+            <!-- Each button should include an Image and TextBlock as content -->
+            <Button ToolTip="Table Orders">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/MISC29.ICO" Height="40" Margin="0,0,0,20" />
+                    <TextBlock Text="Table Orders" TextAlignment="Center" Margin="0,0,0,0"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Counter Orders">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/MISC33.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Counter Orders" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Guest Orders">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/POINT06.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Guest Orders" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Phone Orders">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/PHONE16.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Phone Orders" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Opened Phone Orders">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/PHONE16.ICO" Height="40"  Margin="0,0,0,10"/>
+                    <TextBlock Text="Opened Phone Orders" TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Reservations">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/NOTE16.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Reservations" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Pay Orders">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/HANDSHAK.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Pay Orders" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Punch Clock">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/CLOCK03.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Punch Clock" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Reports">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/GRAPH07.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Reports" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Back Office">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/SETUP1.ICO" Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Back Office" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button ToolTip="Exit">
+                <StackPanel>
+                    <Image Source="/Samba.Modules.NavigationModule;component/OOFL.ICO"  Height="40"  Margin="0,0,0,20"/>
+                    <TextBlock Text="Exit" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+
+        <!--  <Border Opacity="0.5">
             <Border.Background>
                 <ImageBrush ImageSource="Images/Wallpaper3.jpg" />
             </Border.Background>
         </Border>
 
-        <Border Background="#397A7779" Margin="25" BorderThickness="5" BorderBrush="#59000000" CornerRadius="15">
+     Border Background="#397A7779" Margin="25" BorderThickness="5" BorderBrush="#59000000" CornerRadius="15">
 
         </Border>
 
-        <ItemsControl Margin="40" ItemsSource="{Binding CategoryView}">
+         <ItemsControl Margin="40" ItemsSource="{Binding CategoryView}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Columns="3"/>
@@ -87,6 +175,9 @@
                     </Button>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
-        </ItemsControl>
+        </ItemsControl> -->
+
     </Grid>
+
 </UserControl>
+            

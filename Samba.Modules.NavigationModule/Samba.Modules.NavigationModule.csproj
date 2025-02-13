@@ -141,6 +141,36 @@
     <Resource Include="Images\dcn.png" />
     <Resource Include="Images\note.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MISC29.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MISC33.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="POINT06.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PHONE16.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="NOTE16.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="HANDSHAK.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CLOCK03.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="GRAPH07.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SETUP1.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OOFL.ICO" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>IF NOT "$(ConfigurationName)"=="Release" GOTO End

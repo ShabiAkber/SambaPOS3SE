@@ -3,7 +3,7 @@
 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:Login1="clr-namespace:Samba.Modules.LoginModule" mc:Ignorable="d" d:DesignWidth="774" Background="#838383"
      PreviewTextInput="UserControl_PreviewTextInput" PreviewKeyDown="UserControl_PreviewKeyDown">
-    <Grid Cursor="">
+    <Grid Cursor="" Background="{DynamicResource SearchTextBox_LabelTextColor}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Name="Column1" Width="*" />
             <ColumnDefinition Name="Column2" Width="*" />
@@ -12,7 +12,7 @@ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             <RowDefinition Height="*" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
-        <Image Source="/Samba.Modules.LoginModule;component/right-image.png"/>
+        <Image Source="/Samba.Modules.LoginModule;component/right-image.png" Margin="66,46,66,-5" Grid.RowSpan="2"/>
         <TextBlock Grid.Row="1" Grid.ColumnSpan="2" FontSize="30" FontWeight="Black" Foreground="WhiteSmoke" Text="{Binding AppLabel}"
              Margin="5,0,0,0">
             <TextBlock.Effect>

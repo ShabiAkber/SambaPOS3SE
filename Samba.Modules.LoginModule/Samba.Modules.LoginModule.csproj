@@ -112,7 +112,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="right-image.png" />
+    <Resource Include="right-image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

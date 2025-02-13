@@ -7,12 +7,120 @@
       "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\shell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|c:\\sambapos3se\\samba.modules.loginmodule\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|C:\\SambaPOS3SE\\samba.modules.loginmodule\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|solutionrelative:samba.modules.loginmodule\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|c:\\sambapos3se\\samba.modules.loginmodule\\loginpadcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|C:\\SambaPOS3SE\\samba.modules.navigationmodule\\navigationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\navigationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|C:\\SambaPOS3SE\\samba.modules.loginmodule\\loginpadcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|solutionrelative:samba.modules.loginmodule\\loginpadcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|C:\\SambaPOS3SE\\samba.modules.navigationmodule\\navigationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\navigationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|C:\\SambaPOS3SE\\samba.modules.navigationmodule\\navigationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\navigationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|C:\\SambaPOS3SE\\samba.modules.navigationmodule\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|C:\\SambaPOS3SE\\samba.modules.loginmodule\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|solutionrelative:samba.modules.loginmodule\\loginmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|C:\\SambaPOS3SE\\samba.modules.loginmodule\\loginpadcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|solutionrelative:samba.modules.loginmodule\\loginpadcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|C:\\SambaPOS3SE\\samba.modules.navigationmodule\\sampledata\\navigationviewmodelsampledata.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\sampledata\\navigationviewmodelsampledata.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|C:\\SambaPOS3SE\\samba.modules.loginmodule\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|solutionrelative:samba.modules.loginmodule\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|C:\\SambaPOS3SE\\samba.modules.menumodule\\menuitemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8DA03815-ED56-40C5-83CA-6DFBB1F19C4F}|Samba.Modules.MenuModule\\Samba.Modules.MenuModule.csproj|solutionrelative:samba.modules.menumodule\\menuitemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51FCBCEF-D8B5-49D5-B18D-E6C7D5217D21}|Samba.Modules.ModifierModule\\Samba.Modules.ModifierModule.csproj|C:\\SambaPOS3SE\\samba.modules.modifiermodule\\ordertaggroupeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{51FCBCEF-D8B5-49D5-B18D-E6C7D5217D21}|Samba.Modules.ModifierModule\\Samba.Modules.ModifierModule.csproj|solutionrelative:samba.modules.modifiermodule\\ordertaggroupeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51FCBCEF-D8B5-49D5-B18D-E6C7D5217D21}|Samba.Modules.ModifierModule\\Samba.Modules.ModifierModule.csproj|C:\\SambaPOS3SE\\samba.modules.modifiermodule\\automationcommandselectorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{51FCBCEF-D8B5-49D5-B18D-E6C7D5217D21}|Samba.Modules.ModifierModule\\Samba.Modules.ModifierModule.csproj|solutionrelative:samba.modules.modifiermodule\\automationcommandselectorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\ticketview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\ticketview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\tickettypelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\tickettypelistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\tickettotalsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\tickettotalsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\tickettaglistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\tickettaglistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\ticketordersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\ticketordersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\ticketlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\ticketlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\ticketinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\ticketinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\ticketentitylistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\ticketentitylistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\posview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\posview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|C:\\SambaPOS3SE\\samba.modules.posmodule\\menuitemselectorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B75C6387-9855-44BF-886E-5BB60D643AD2}|Samba.Modules.PosModule\\Samba.Modules.PosModule.csproj|solutionrelative:samba.modules.posmodule\\menuitemselectorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|C:\\SambaPOS3SE\\samba.presentation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|C:\\SambaPOS3SE\\samba.presentation\\messageclientstatusview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\messageclientstatusview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|C:\\SambaPOS3SE\\samba.presentation\\common.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B58CBF09-52EA-4466-B5D2-2664018E7561}|Samba.Presentation\\Samba.Presentation.csproj|solutionrelative:samba.presentation\\common.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|C:\\SambaPOS3SE\\samba.modules.navigationmodule\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9497C48E-B9B5-4869-820E-09ECE4347632}|Samba.Modules.NavigationModule\\Samba.Modules.NavigationModule.csproj|solutionrelative:samba.modules.navigationmodule\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|C:\\SambaPOS3SE\\samba.modules.loginmodule\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534CEC53-1EBC-4386-95E3-0E451FCB388A}|Samba.Modules.LoginModule\\Samba.Modules.LoginModule.csproj|solutionrelative:samba.modules.loginmodule\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\obj\\Debug\\NavigationView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Samba.Modules.NavigationModule\\obj\\Debug\\NavigationView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,14 +138,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Shell.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
+              "RelativeDocumentMoniker": "Samba.Presentation\\Shell.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
+              "RelativeToolTip": "Samba.Presentation\\Shell.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T18:47:06.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "NavigationView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\NavigationView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml",
+              "RelativeToolTip": "Samba.Modules.NavigationModule\\NavigationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:07:43.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginPadControl.xaml",
               "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginPadControl.xaml",
               "RelativeDocumentMoniker": "Samba.Modules.LoginModule\\LoginPadControl.xaml",
               "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginPadControl.xaml",
               "RelativeToolTip": "Samba.Modules.LoginModule\\LoginPadControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T18:48:09.511Z",
+              "WhenOpened": "2025-02-12T17:01:16.196Z",
               "EditorCaption": ""
             },
             {
@@ -54,15 +186,301 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Shell.xaml",
-              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
-              "RelativeDocumentMoniker": "Samba.Presentation\\Shell.xaml",
-              "ToolTip": "C:\\SambaPOS3SE\\Samba.Presentation\\Shell.xaml",
-              "RelativeToolTip": "Samba.Presentation\\Shell.xaml",
+              "DocumentIndex": 5,
+              "Title": "NavigationView.xaml.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\NavigationView.xaml.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationView.xaml.cs",
+              "RelativeToolTip": "Samba.Modules.NavigationModule\\NavigationView.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADgvxkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:14:38.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavigationViewModel.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationViewModel.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\NavigationViewModel.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationViewModel.cs",
+              "RelativeToolTip": "Samba.Modules.NavigationModule\\NavigationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:13:52.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavigationModule.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationModule.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\NavigationModule.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\NavigationModule.cs",
+              "RelativeToolTip": "Samba.Modules.NavigationModule\\NavigationModule.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:45:59.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NavigationView.g.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\obj\\Debug\\NavigationView.g.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\obj\\Debug\\NavigationView.g.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\obj\\Debug\\NavigationView.g.cs",
+              "RelativeToolTip": "Samba.Modules.NavigationModule\\obj\\Debug\\NavigationView.g.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAArwEcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:28:07.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginModule.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginModule.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.LoginModule\\LoginModule.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginModule.cs",
+              "RelativeToolTip": "Samba.Modules.LoginModule\\LoginModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T17:09:46.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPadControl.xaml.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginPadControl.xaml.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.LoginModule\\LoginPadControl.xaml.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginPadControl.xaml.cs",
+              "RelativeToolTip": "Samba.Modules.LoginModule\\LoginPadControl.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADgvzoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T17:01:19.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavigationViewModelSampleData.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\SampleData\\NavigationViewModelSampleData.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\SampleData\\NavigationViewModelSampleData.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\SampleData\\NavigationViewModelSampleData.xaml",
+              "RelativeToolTip": "Samba.Modules.NavigationModule\\SampleData\\NavigationViewModelSampleData.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T18:47:06.764Z",
+              "WhenOpened": "2025-02-12T19:05:51.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.LoginModule\\LoginView.xaml.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginView.xaml.cs",
+              "RelativeToolTip": "Samba.Modules.LoginModule\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:04:12.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MenuItemView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.MenuModule\\MenuItemView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.MenuModule\\MenuItemView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.MenuModule\\MenuItemView.xaml",
+              "RelativeToolTip": "Samba.Modules.MenuModule\\MenuItemView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:42.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderTagGroupEditorView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.ModifierModule\\OrderTagGroupEditorView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.ModifierModule\\OrderTagGroupEditorView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.ModifierModule\\OrderTagGroupEditorView.xaml",
+              "RelativeToolTip": "Samba.Modules.ModifierModule\\OrderTagGroupEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:33.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AutomationCommandSelectorView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.ModifierModule\\AutomationCommandSelectorView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.ModifierModule\\AutomationCommandSelectorView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.ModifierModule\\AutomationCommandSelectorView.xaml",
+              "RelativeToolTip": "Samba.Modules.ModifierModule\\AutomationCommandSelectorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:30.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:15.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TicketTypeListView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketTypeListView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketTypeListView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketTypeListView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketTypeListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:13.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TicketTotalsView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketTotalsView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketTotalsView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketTotalsView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketTotalsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:09.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TicketTagListView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketTagListView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketTagListView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketTagListView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketTagListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:06.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TicketOrdersView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketOrdersView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketOrdersView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketOrdersView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketOrdersView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:04.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TicketListView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketListView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketListView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketListView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:33:01.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TicketInfoView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketInfoView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketInfoView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketInfoView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketInfoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:32:54.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PosView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\PosView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\PosView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\PosView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\PosView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:32:47.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MenuItemSelectorView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\MenuItemSelectorView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\MenuItemSelectorView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\MenuItemSelectorView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\MenuItemSelectorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:32:41.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TicketEntityListView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketEntityListView.xaml",
+              "RelativeDocumentMoniker": "Samba.Modules.PosModule\\TicketEntityListView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.PosModule\\TicketEntityListView.xaml",
+              "RelativeToolTip": "Samba.Modules.PosModule\\TicketEntityListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:32:30.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Presentation\\App.xaml",
+              "RelativeDocumentMoniker": "Samba.Presentation\\App.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Presentation\\App.xaml",
+              "RelativeToolTip": "Samba.Presentation\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T12:42:01.606Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Common.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Presentation\\Common.xaml",
+              "RelativeDocumentMoniker": "Samba.Presentation\\Common.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Presentation\\Common.xaml",
+              "RelativeToolTip": "Samba.Presentation\\Common.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:20:02.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MessageClientStatusView.xaml",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Presentation\\MessageClientStatusView.xaml",
+              "RelativeDocumentMoniker": "Samba.Presentation\\MessageClientStatusView.xaml",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Presentation\\MessageClientStatusView.xaml",
+              "RelativeToolTip": "Samba.Presentation\\MessageClientStatusView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:23:27.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.NavigationModule\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.NavigationModule\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Samba.Modules.NavigationModule\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:09:24.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Samba.Modules.LoginModule\\LoginViewModel.cs",
+              "ToolTip": "C:\\SambaPOS3SE\\Samba.Modules.LoginModule\\LoginViewModel.cs",
+              "RelativeToolTip": "Samba.Modules.LoginModule\\LoginViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T17:08:16.939Z"
             }
           ]
         }
