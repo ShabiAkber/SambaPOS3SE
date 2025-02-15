@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Samba.Modules.WorkperiodModule.WorkPeriodsView" 
+﻿<!-- <UserControl x:Class="Samba.Modules.WorkperiodModule.WorkPeriodsView" 
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -82,5 +82,63 @@
                 </Viewbox>
             </Grid>
         </TabControl>
+    </Grid>
+</UserControl> -->
+
+
+
+
+
+<UserControl x:Class="Samba.Modules.WorkperiodModule.WorkPeriodsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" d:DesignHeight="600" d:DesignWidth="400" FontSize="16">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        
+        <TextBlock Text="Punch Clock" FontSize="18" FontWeight="Bold" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Content="In" Width="80" Height="70" Margin="5" Command="{Binding PunchInCommand}"/>
+            <Button Content="Out" Width="80" Height="70" Margin="5" Command="{Binding PunchOutCommand}"/>
+            <Button Content="Exit" Width="80" Height="70" Margin="5" Command="{Binding ExitCommand}"/>
+        </StackPanel>
+        
+        
+        <ListView Grid.Row="1" ItemsSource="{Binding EmployeeList}" Margin="10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Employee" DisplayMemberBinding="{Binding Name}" Width="160">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="Employee" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="In" DisplayMemberBinding="{Binding Status}" Width="80">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="In" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        
+       
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Content="Maintenance" Width="120" Height="40" Margin="5" Command="{Binding MaintenanceCommand}"/>
+            <Button Content="Print Your Hours" Width="150" Height="40" Margin="5" Command="{Binding PrintHoursCommand}"/>
+        </StackPanel>
     </Grid>
 </UserControl>
